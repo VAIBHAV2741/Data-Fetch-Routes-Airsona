@@ -4,7 +4,7 @@ const prisma = require('../prismaClient');
 const FETCH_INTERVAL = 2000000;
 const CITY = "kanpur";
 const COUNTRY = "india";
-const API_KEY = "6018efdc1790561add0047b8778d806ad249b567";
+const API_KEY = YOUR_API_KEY;
 
 const API_URL = `https://api.waqi.info/search/?token=${API_KEY}&keyword=${CITY},${COUNTRY}`;
 
